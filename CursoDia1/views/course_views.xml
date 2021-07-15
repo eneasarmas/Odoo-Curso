@@ -13,7 +13,7 @@
 								<field name="active"/>
 							</group>
 							<group>
-								<field name="level"/>
+								<field name="level" placeholder="Por favor colocar nivel del curso"/>
 							</group>
 						</group>
 						<notebook>
