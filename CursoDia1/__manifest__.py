@@ -1,21 +1,21 @@
 # -*- coding: utf-8 -*-
 {
-    'name' : 'odoo dia 1',
-    'summary' : """Dia uno entrenamiento 1255""",
+    'name' : 'odoo Academy',
+    'summary' : """Academy app training""",
     'description' :"""
-        Curso Dia 1 de inicio modificado 1255
+        Academy curses
     """,
-    'author' : 'Crucialsoft',
+    'author' : 'crucialsoft',
     'category' : 'Training',
     'version' : '0.0.1',
     'depends' : ['base'],
     'data' : [
-        'security/academia_seguridad.xml',
+        'security/academy_security.xml',
         'security/ir.model.access.csv',
-        'views/curso_vista.xml',
-        'views/academia_menu.xml',
+        'views/academy_menuitems.xml',
+        'views/course_views.xml',
     ],
-    'demo' : [
-        'demo/dato_ini.xml',
+    'demo': [
+        'demo/academy_demo.xml',
     ],
 }
