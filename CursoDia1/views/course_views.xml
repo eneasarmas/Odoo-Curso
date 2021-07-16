@@ -39,6 +39,7 @@
 			<field name="arch" type="xml">
 				<tree string="Course List">
 					<field name="foto" widget="image" class="image_course_list" />
+					<field name="archivo" widget="file"/>
 					<field name="name"/>
 					<field name="description"/>
 					<field name="level"/>
