@@ -21,6 +21,7 @@ class Course(models.Model):
 	base_price = fields.Float(string='Base price', default=0.00)
 	additional_fee = fields.Float(string='Additional Fee', default=10.00)
 	total_price = fields.Float(string='Total price', readonly=True)
+	foto = fields.Image(string='Fotografía de algo', max_width=800, max_height=600)
 	
 	@api.onchange('base_price','additional_fee')
 	def _onchange_total_price(self):
