@@ -22,7 +22,7 @@ class Course(models.Model):
 	additional_fee = fields.Float(string='Additional Fee', default=10.00)
 	total_price = fields.Float(string='Total price', readonly=True)
 	foto = fields.Image(string='Fotografía de algo')
-	archivo= fields.Binary(string='archivo adjunto')
+	archivo= fields.Binary(string='archivo adjunto', attachment=True)
 	
 	@api.onchange('base_price','additional_fee')
 	def _onchange_total_price(self):
