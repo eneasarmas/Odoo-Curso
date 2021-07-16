@@ -24,6 +24,10 @@ class Course(models.Model):
 	foto = fields.Image(string='Fotografía de algo')
 	archivo= fields.Binary(string='archivo adjunto', attachment=True)
 	
+	sessions_ids = fields.One2many(comodel_name='academy.session',
+		inverse_name='course_id',
+		string='Sesiones')
+	
 	@api.onchange('base_price','additional_fee')
 	def _onchange_total_price(self):
 		if self.base_price < 0.0:

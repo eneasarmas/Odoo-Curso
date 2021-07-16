@@ -15,6 +15,7 @@
         'views/academy_menuitems.xml',
         'views/course_views.xml',
         'views/css_loader.xml',
+        'views/session_views.xml',
     ],
     'demo': [
         'demo/academy_demo.xml',
