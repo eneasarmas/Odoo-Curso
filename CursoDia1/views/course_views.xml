@@ -10,9 +10,11 @@
 						<h1><field name="name" placeholder="Por favor colocar titulo del curso"/></h1>
 						<group>
 							<group>
+								<field name="foto" widget="image"/>
+							</group>
+							<group>
 								<field name="active"/>
 								<field name="level" placeholder="Por favor colocar nivel del curso"/>
-								<field name="foto" widget="image"/>
 							</group>
 							<group>
                                 <field name="base_price"/>
