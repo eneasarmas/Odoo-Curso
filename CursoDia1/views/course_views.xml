@@ -28,7 +28,7 @@
 								<field name="description"/>
 							</page>
 							<page string="Sesiones">
-								<field name="sessions_id"/>
+								<field name="sessions_ids"/>
 							</page>
 						</notebook>
 					</sheet>
