@@ -11,6 +11,7 @@
 						<group>
 							<group>
 								<field name="foto" widget="image" class="curso_image_widget"/>
+								<field name="archivo" widget="file"/>
 							</group>
 							<group>
 								<field name="active"/>
