@@ -13,11 +13,11 @@
 								<field name="course_id"/>
 							</group>
 							<group>
-								<field name="intructor_id"/>
+								<field name="instructor_id"/>
 							</group>
 							<notebook>
 								<page string="Estudiantes">
-									<field name="student_ids"/>
+									<field name="students_ids"/>
 								</page>
 							</notebook>
 						</group>
