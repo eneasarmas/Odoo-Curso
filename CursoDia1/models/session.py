@@ -19,7 +19,7 @@ class Session(models.Model):
     
     start_date=fields.Date(string='Fecha Inicio',default=fields.Date.today)
     
-    duration = field.Integer(string='Dias de sesión',default = 1)
+    duration = fields.Integer(string='Dias de sesión',default = 1)
     
     end_date=fields.Date(string='Fecha Fin'
                         ,compute='_compute_end_date'
