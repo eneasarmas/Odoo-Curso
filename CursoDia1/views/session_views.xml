@@ -41,11 +41,11 @@
             <field name="name">academy.session.calendar</field>
             <field name="model">academy.session.calendar</field>
             <field name="arch" type="xml">
-                <calendar string="Session Calendar">
-                      date_start="start_date"
-                      date_stop="end_date"
-                      color="instructor_id"
-                      mode="mounth">
+                <calendar string="Session Calendar"
+                          date_start="start_date"
+                          date_stop="end_date"
+                          color="instructor_id"
+                          mode="mounth">
                     <field name="name"/>
                     <field name="instructor_id"/>
                 </calendar>
