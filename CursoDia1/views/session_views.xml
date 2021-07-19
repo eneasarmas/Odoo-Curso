@@ -36,5 +36,20 @@
 				</tree>
 			</field>
 		</record>
+        
+        <record model="ir.ui.view" id="sesion_view_calendar">
+            <field name="name">academy.session.calendar</field>
+            <field name="model">academy.session.calendar</field>
+            <field name="arch" type="xml">
+                <calendar string="Session Calendar">
+                      date_start="start_date"
+                      date_stop="end_date"
+                      color="instructor_id"
+                      mode="mounth">
+                    <field name="name"/>
+                    <field name="instructor_id"/>
+                </calendar>
+            </field>
+        </record>
 	</data>
 </odoo>
