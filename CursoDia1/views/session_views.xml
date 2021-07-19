@@ -37,9 +37,9 @@
 			</field>
 		</record>
         
-        <record model="ir.ui.view" id="sesion_view_calendar">
+        <record model="ir.ui.view" id="session_view_calendar">
             <field name="name">academy.session.calendar</field>
-            <field name="model">academy.session.calendar</field>
+            <field name="model">academy.session</field>
             <field name="arch" type="xml">
                 <calendar string="Session Calendar"
                           date_start="start_date"
