@@ -71,11 +71,11 @@
                                 <div class="col">
                                     <ul class="pl-1 mb-0">
                                         <li>
-                                            <strong>Start Date:</strong>
+                                            <strong>Fecha inicio:</strong>
                                             <t t-esc="userTimezoneStartDate.format('YYYY-MM-DD hh:mm:ss A')"/>
                                         </li>
                                         <li>
-                                            <strong>Stop Date:</strong>
+                                            <strong>Fecha fin:</strong>
                                             <t t-esc="end_date.format('YYYY-MM-DD hh:mm:ss A')"/>
                                         </li>
                                     </ul>
