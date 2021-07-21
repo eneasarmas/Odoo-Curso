@@ -5,7 +5,6 @@
 		<record model="ir.ui.view" id="view_order_form_inherit_academy">
 			<field name="name">sale.order.form.inherit.academy</field>
 			<field name="model">sale.order</field>
-			<field name="inherit_id" ref="sale.view_order_from" />
 		</record>
 
 	</data>
