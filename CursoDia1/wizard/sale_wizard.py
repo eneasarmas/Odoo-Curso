@@ -30,7 +30,7 @@ class SaleWizard(models.Model):
         if session_product_id:
             for student in self.students_ids:
                 order_id = self.env['sale.order'].create({
-                    'partner': student.id
+                    'partner_id': student.id
                     ,'session_id':self.session_id.id
                     ,'order_line': [(0,0,{'product_id':session_product_id.id,'price_unit':self.session_id.total_price})]
                 })
