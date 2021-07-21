@@ -7,12 +7,11 @@
 			<field name="model">academy.sale.wizard</field>
 			<field name="arch" type="xml">
                 <form string="Crear orden de venta para sesion">
-                    <footer>
-                        <button name="create_sale_orders" type="object"
-                        string="Crear" class="oe_highlight" />
-                        or
-                        <button special="cancel" string="Cancelar" />
-                    </footer>
+                    <group>
+                        <field name="session_id" />
+                        <field name="session_student_ids" invisible="1" />
+                        <field name="students_ids" domain="[('id','in','session_student_ids')]" />
+                    </group>
                 
                 </form>
 
