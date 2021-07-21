@@ -15,7 +15,7 @@
                 </field>
                 <xpath expr="//shet//notebook" position="inside">
                     <page string="Studiantes" attrs="{'invisible':[('session_id','=',False)]}">
-                        <field name="student_ids">
+                        <field name="students_ids">
                             <tree>
                                 <field name="name" />
                                 <field name="phone" />
