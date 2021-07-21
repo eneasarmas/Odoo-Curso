@@ -9,7 +9,7 @@ class SaleOrder(models.Model):
                             ,string='Sesion Relacion'
                             ,ondelete='set null')
 
-    session_id = = fields.Many2one(comodel_name='academy.session'
+    session_id = fields.Many2one(comodel_name='academy.session'
                                   ,string='Sesion Relacion'
                                   ,ondelete='set null')
 
