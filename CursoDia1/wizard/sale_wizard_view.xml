@@ -12,6 +12,12 @@
                         <field name="session_student_ids" invisible="1" />
                         <field name="students_ids" domain="[('id','in','session_student_ids')]" />
                     </group>
+                    <footer>
+                        <button name="create_sale_orders" type="object"
+                        string="Crear" class="oe_highlight" />
+                        or
+                        <button special="cancel" string="Cancelar" />
+                    </footer>
                 
                 </form>
 

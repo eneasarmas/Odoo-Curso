@@ -25,7 +25,7 @@ class SaleWizard(models.Model):
                             ,string='Estudiantes para orden de venta'
                    )
     
-    def create_ale_orders(self):
+    def create_sale_orders(self):
         session_product_id = self.env['product.product'].search([('is_session_product','=',True)],limit=1)
         if session_product_id:
             for student in self.students_ids:
