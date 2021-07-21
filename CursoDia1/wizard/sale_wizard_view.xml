@@ -14,7 +14,7 @@
                     </group>
                     <footer>
                         <button name="create_sale_orders" type="object"
-                        string="Crear" class="oe_highligt" />
+                        string="Crear" class="oe_highlight" />
                         or
                         <button special="cancel" string="Cancelar" />
                     </footer>
@@ -23,15 +23,15 @@
 
 			</field>
 		</record>
-         
-         <act_window 
-             id="launch_sale_wizard" 
-             name="Create Sale Order"
-             binding_model="academy.session"
-             res_model="academy.sale.wizard"
-             view_mode="form"
-             target="new"
-         />
+        
+        <act_window 
+            id="launch_sale_wizard" 
+            name="Create Sale Order"
+            binding_model="academy.session"
+            res_model="academy.sale.wizard"
+            view_mode="form"
+            target="new"
+        />
 
 	</data>
 </odoo>
