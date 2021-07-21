@@ -5,7 +5,7 @@
 		<record model="ir.ui.view" id="product_tamplate_form_view_inherit_academy">
 			<field name="name">product.tamplate.form.inherit.academy</field>
 			<field name="model">product.tamplate</field>
-			<field name="inherit_id" ref="product.product_tamplate_form_view" />
+			<field name="inherit_id" ref="product.product_tamplate_only_form_view" />
 			<field name="arch" type="xml">
                 
                 <field name="barcode" position="after">
