@@ -6,6 +6,9 @@
 			<field name="name">academy.sale.wizard.form</field>
 			<field name="model">academy.sale.wizard</field>
 			<field name="arch" type="xml">
+                <form string="Crear orden de venta para sesion">
+                
+                </form>
 
 			</field>
 		</record>
