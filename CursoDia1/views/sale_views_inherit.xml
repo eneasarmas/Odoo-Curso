@@ -10,19 +10,6 @@
                     <field name="session_id" />
                 </xpath>
                 
-                <field name="partner_id" position="before">
-                    <field name="instructor_id" attrs="{'invisible':[('session_id','=',False)]}" />
-                </field>
-                <xpath expr="//shet//notebook" position="inside">
-                    <page string="Studiantes" attrs="{'invisible':[('session_id','=',False)]}">
-                        <field name="students_ids">
-                            <tree>
-                                <field name="name" />
-                                <field name="phone" />
-                            </tree>
-                        </field>
-                    </page>
-                </xpath>
 			</field>
 		</record>
 
