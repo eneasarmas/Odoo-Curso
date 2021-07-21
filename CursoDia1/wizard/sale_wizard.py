@@ -7,7 +7,7 @@ class SaleWizard(models.Model):
     _description = 'Asistente: Ordenes de venta rapidas para sesiones de estudiantes'
     
     def _default_session(self):
-        return self.env['academy.session'].browser(self._context.get('active_id'))
+        return self.env['academy.session'].browse(self._context.get('active_id'))
 
     session_id = fields.Many2one(comodel_name='academy.session'
                               ,string='Sesion'
