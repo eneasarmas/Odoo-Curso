@@ -8,7 +8,7 @@
     'author' : 'crucialsoft',
     'category' : 'Training',
     'version' : '0.0.1',
-    'depends' : ['base','web_cohort'],
+    'depends' : ['sale','web_cohort'],
     'data' : [
         'security/academy_security.xml',
         'security/ir.model.access.csv',
