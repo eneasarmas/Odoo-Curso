@@ -7,7 +7,7 @@
                 <div class="oe_structure">
                     <div class="container">
                         <h1>Cursos</h1>
-                        <t t-foreach="Courses" t-as="course">
+                        <t t-foreach="courses" t-as="course">
                             <h3>
                                 <t t-esc="course.id" />
                                 <t t-esc="course.name" />
