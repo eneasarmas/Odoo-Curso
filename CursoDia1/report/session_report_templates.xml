@@ -15,7 +15,7 @@
                     <div class="page">
                         <h2 t-field="doc.name" class="mt16" />
                         <div class="row mt32 mb32" id="session_info">
-                            <div class="col auto mw-100 mb-2">
+                            <div class="col-auto mw-100 mb-2">
                                 <strong>Duracion de la sesion:</strong>
                                 <t t-if="doc.start_date">
                                     <span t-field="doc.start_date" />
@@ -35,9 +35,11 @@
                         <h4>Estudiantes</h4>
                         <table class="table table-sm o_main_table">
                             <thead>
-                                <th name="th_name">Name</th>
-                                <th name="th_phone">Phone</th>
-                                <th name="th_email">Email</th>
+                                <tr>
+                                    <th name="th_name">Name</th>
+                                    <th name="th_phone">Phone</th>
+                                    <th name="th_email">Email</th>
+                                </tr>
                             </thead>
                             <tbody>
                                 <t t-foreach="doc.students_ids" t-as="student">
