@@ -30,31 +30,31 @@
                                 <strong>Instructor:</strong>
                                 <span t-field="doc.instructor_id.name" />
                             </div>
-                            
-                            <h4></h4>
-                            <table class="table table-sm o_main_table">
-                                <thead>
-                                    <th name="th_name">Name</th>
-                                    <th name="th_phone">Phone</th>
-                                    <th name="th_email">Email</th>
-                                </thead>
-                                <tbody>
-                                    <t t-foreach="doc.students_ids" t-as="student">
-                                        <tr>
-                                            <td t-if="student.name" name="td_name">
-                                                <span t-field="student.name" />
-                                            </td>
-                                            <td t-if="student.phone" name="td_phone">
-                                                <span t-field="student.phone" />
-                                            </td>
-                                            <td t-if="student.email" name="td_email">
-                                                <span t-field="student.email" />
-                                            </td>
-                                        </tr>
-                                    </t>
-                                </tbody>
-                            </table>
                         </div>
+                            
+                        <h4>Estudiantes</h4>
+                        <table class="table table-sm o_main_table">
+                            <thead>
+                                <th name="th_name">Name</th>
+                                <th name="th_phone">Phone</th>
+                                <th name="th_email">Email</th>
+                            </thead>
+                            <tbody>
+                                <t t-foreach="doc.students_ids" t-as="student">
+                                    <tr>
+                                        <td t-if="student.name" name="td_name">
+                                            <span t-field="student.name" />
+                                        </td>
+                                        <td t-if="student.phone" name="td_phone">
+                                            <span t-field="student.phone" />
+                                        </td>
+                                        <td t-if="student.email" name="td_email">
+                                            <span t-field="student.email" />
+                                        </td>
+                                    </tr>
+                                </t>
+                            </tbody>
+                        </table>
                     </div>
                 </t>
             </t>
