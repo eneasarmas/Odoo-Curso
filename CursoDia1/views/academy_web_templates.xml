@@ -2,7 +2,7 @@
 <odoo>
 	<data>
         <template id="course_website">
-            <t t-call="website.layaout">
+            <t t-call="website.layout">
                 <t t-set="title">Academia</t>
                 <div class="oe_structure">
                     <div class="container">
