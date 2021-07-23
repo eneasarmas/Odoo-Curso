@@ -1,0 +1,492 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* CursoDia1
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-23 16:44+0000\n"
+"PO-Revision-Date: 2021-07-23 16:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.report_session_document
+msgid "<strong>Duracion de la sesion:</strong>"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.session_view_gantt
+msgid "<strong>Fecha fin:</strong>"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.session_view_gantt
+msgid "<strong>Fecha inicio:</strong>"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.report_session_document
+msgid "<strong>Instructor:</strong>"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_website
+msgid "<strong>Sesiones</strong>"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_website
+msgid "Academia"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.ui.menu,name:CursoDia1.menu_academy
+#: model:ir.ui.menu,name:CursoDia1.menu_academy_sub
+msgid "Academia Odoo"
+msgstr ""
+
+#. module: CursoDia1
+#: model:res.groups,name:CursoDia1.group_academy_admin
+msgid "Academy / Admin"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__active
+msgid "Active"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__additional_fee
+msgid "Additional Fee"
+msgstr ""
+
+#. module: CursoDia1
+#: code:addons/CursoDia1/models/course.py:0
+#, python-format
+msgid "Additional Fees cannot be less than 10.00: %s"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields.selection,name:CursoDia1.selection__academy_course__level__advanced
+msgid "Advanced"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model,name:CursoDia1.model_academy_sale_wizard
+msgid "Asistente: Ordenes de venta rapidas para sesiones de estudiantes"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.ejem_kanban
+msgid "Avatar"
+msgstr ""
+
+#. module: CursoDia1
+#: code:addons/CursoDia1/models/course.py:0
+#, python-format
+msgid "Base Price cannot be set as Negative."
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__base_price
+msgid "Base price"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields.selection,name:CursoDia1.selection__academy_course__level__beginner
+msgid "Beginner"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields.selection,name:CursoDia1.selection__academy_session__state__draft
+msgid "Borrador"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields.selection,name:CursoDia1.selection__academy_session__state__canceled
+msgid "Cancelado"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.academy_sale_wizard_form_view
+msgid "Cancelar"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.view_cohort_cohort
+msgid "Cohort records"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__course_id
+msgid "Course"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_view_form
+msgid "Course Form"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model,name:CursoDia1.model_academy_course
+msgid "Course Info"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_view_list
+msgid "Course List"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.actions.act_window,help:CursoDia1.course_list_action
+msgid "Creando el primer curso."
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.actions.act_window,help:CursoDia1.session_list_action
+msgid "Creando la primera sesion."
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.academy_sale_wizard_form_view
+msgid "Crear"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.academy_sale_wizard_form_view
+msgid "Crear orden de venta para sesion"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.actions.act_window,name:CursoDia1.launch_sale_wizard
+msgid "Create Sale Order"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__create_uid
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_sale_wizard__create_uid
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__create_date
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_sale_wizard__create_date
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.session_website
+msgid "Curso:"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.actions.act_window,name:CursoDia1.course_list_action
+#: model:ir.ui.menu,name:CursoDia1.menu_academy_courses
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_website
+msgid "Cursos"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_view_form
+msgid "Descripcion"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_website
+msgid "Descripcion:"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__description
+msgid "Description"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__duration
+msgid "Dias de sesión"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__display_name
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_sale_wizard__display_name
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__display_name
+#: model:ir.model.fields,field_description:CursoDia1.field_product_template__display_name
+#: model:ir.model.fields,field_description:CursoDia1.field_sale_order__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.ejem_kanban
+msgid "Duracion:"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.report_session_document
+msgid "Email"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields.selection,name:CursoDia1.selection__academy_session__state__open
+msgid "En progreso"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__state
+msgid "Estados"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,help:CursoDia1.field_academy_sale_wizard__session_student_ids
+msgid "Estos son los estudiantes en la sesion actual"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_sale_wizard__session_student_ids
+msgid "Estudiante en la sesion actual"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__students_ids
+#: model:ir.model.fields,field_description:CursoDia1.field_sale_order__students_ids
+#: model_terms:ir.ui.view,arch_db:CursoDia1.report_session_document
+#: model_terms:ir.ui.view,arch_db:CursoDia1.session_view_form
+msgid "Estudiantes"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_sale_wizard__students_ids
+msgid "Estudiantes para orden de venta"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.session_website
+msgid "Estudiantes:"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__end_date
+msgid "Fecha Fin"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__start_date
+msgid "Fecha Inicio"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__foto
+msgid "Fotografía de algo"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_view_graph
+msgid "Graph Course"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__id
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_sale_wizard__id
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__id
+#: model:ir.model.fields,field_description:CursoDia1.field_product_template__id
+#: model:ir.model.fields,field_description:CursoDia1.field_sale_order__id
+msgid "ID"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__instructor_id
+msgid "Instructor"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.ejem_kanban
+msgid "Instructor:"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields.selection,name:CursoDia1.selection__academy_course__level__intermediate
+msgid "Intermediate"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course____last_update
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_sale_wizard____last_update
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session____last_update
+#: model:ir.model.fields,field_description:CursoDia1.field_product_template____last_update
+#: model:ir.model.fields,field_description:CursoDia1.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__write_uid
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_sale_wizard__write_uid
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__write_date
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_sale_wizard__write_date
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__level
+msgid "Level"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.report_session_document
+msgid "Name"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_website
+msgid "Nivel:"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.report_session_document
+msgid "Phone"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_view_form
+msgid "Por favor colocar nivel del curso"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_view_form
+msgid "Por favor colocar titulo del curso"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__total_price
+msgid "Precio total"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model,name:CursoDia1.model_product_template
+msgid "Product Template"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.actions.report,name:CursoDia1.report_session
+msgid "Reporte de sesiones"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model,name:CursoDia1.model_sale_order
+msgid "Sales Order"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_sale_wizard__session_id
+#: model_terms:ir.ui.view,arch_db:CursoDia1.session_website
+msgid "Sesion"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.session_view_form
+msgid "Sesion Forma"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_sale_order__instructor_id
+msgid "Sesion Instructor"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_sale_order__session_id
+msgid "Sesion Relacion"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.actions.act_window,name:CursoDia1.session_list_action
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__sessions_ids
+#: model:ir.ui.menu,name:CursoDia1.menu_academy_sessions
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_view_form
+msgid "Sesiones"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.session_view_list
+msgid "Sesiones Lista"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.session_view_calendar
+msgid "Session Calendar"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model,name:CursoDia1.model_academy_session
+msgid "Session Info"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_website
+msgid "Sin sesion actual"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.view_order_form_inherit_academy
+msgid "Studiantes"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields.selection,name:CursoDia1.selection__academy_session__state__done
+msgid "Terminado"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__name
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_session__name
+msgid "Title"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__total_price
+msgid "Total price"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.course_website
+#: model_terms:ir.ui.view,arch_db:CursoDia1.session_website
+msgid "Ultima modificacion:"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,help:CursoDia1.field_product_product__is_session_product
+#: model:ir.model.fields,help:CursoDia1.field_product_template__is_session_product
+msgid "Usa esta caja como sesion de seleccion de productos"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_product_product__is_session_product
+#: model:ir.model.fields,field_description:CursoDia1.field_product_template__is_session_product
+msgid "Usar como sesion de producto"
+msgstr ""
+
+#. module: CursoDia1
+#: model:ir.model.fields,field_description:CursoDia1.field_academy_course__archivo
+msgid "archivo adjunto"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.academy_sale_wizard_form_view
+msgid "or"
+msgstr ""
+
+#. module: CursoDia1
+#: model_terms:ir.ui.view,arch_db:CursoDia1.report_session_document
+msgid "to"
+msgstr ""
